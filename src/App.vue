@@ -1,20 +1,26 @@
 <template>
-  <nav>
+  <BackgroundComponent></BackgroundComponent>
+  <nav v-if="$route.path != '/'">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/projects">Projects</router-link>
   </nav>
   <router-view/>
+  <div v-if="$route.path != '/'">
+    <FooterComponent></FooterComponent>
+  </div>
 </template>
+<script>
+import FooterComponent from '@/components/FooterComponent.vue'
+import BackgroundComponent from '@/components/BackgroundComponent.vue'
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+export default {
+  components: {
+    FooterComponent,
+    BackgroundComponent
+  }
 }
-
+</script>
+<style scoped>
 nav {
   padding: 30px;
 }
