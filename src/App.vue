@@ -3,7 +3,7 @@
   <nav v-if="$route.path != '/'">
     <router-link to="/">Home</router-link> |
     <router-link to="/projects">Projects</router-link>
-  </nav>
+  </nav> 
   <router-view/>
   <div v-if="$route.path != '/'">
     <FooterComponent></FooterComponent>
