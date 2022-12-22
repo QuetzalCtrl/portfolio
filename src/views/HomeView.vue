@@ -17,7 +17,7 @@
             cybersecurity enthusiast and basically<br>
             passionate about anything with a CPU.</p>
           <a href="#"
-            class="bg-transparent text-green rounded shadow hover:shadow-lg py-2 px-4 border border-green">
+            class="bg-transparent mr-auto hover:bg-green text-green hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
             PDF Resume</a>
         </div>
         <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
@@ -38,8 +38,17 @@
 
 
   </section>
+  <TimelineComponent></TimelineComponent>
 
 </template>
+<script>
+import TimelineComponent from '@/components/TimelineComponent.vue';
+export default{
+  components:{
+    TimelineComponent
+  }
+}
+</script>
 <style scoped>
 .scroll-down {
   position: absolute;
