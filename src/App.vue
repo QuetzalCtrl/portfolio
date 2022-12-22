@@ -1,8 +1,8 @@
 <template>
   <BackgroundComponent></BackgroundComponent>
-  <nav v-if="$route.path != '/'">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/projects">Projects</router-link>
+  <nav v-if="$route.path != '/'" class="w-screen text-center text-bold text-bold text-lightgray bg-dark fixed p-8 border-b-2 border-solid border-black">
+    <router-link to="/home">Home</router-link> |
+    <router-link to="/">Terminal</router-link>
   </nav>
   <router-view/>
   <div v-if="$route.path != '/'">
@@ -21,16 +21,14 @@ export default {
 }
 </script>
 <style scoped>
-nav {
-  padding: 30px;
+nav a{
+  margin: 0 10px 0 10px;
 }
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+nav a:hover {
+  color: rgb(229 231 235);
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #5db131;
 }
 </style>

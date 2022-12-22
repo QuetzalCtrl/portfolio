@@ -24,7 +24,7 @@
     background: -webkit-linear-gradient(to left, #111927, #0b1728);  
     width: 100%;
     height:100vh;
-    position: absolute;
+    position: fixed;
     z-index: -100;
 }
 

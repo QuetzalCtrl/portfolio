@@ -1,124 +1,87 @@
 <template>
-  <div>
-    <div class="terminal">
-      <div class="terminal-header">
-        <div class="terminal-header-left">
-          <span class="terminal-header-icon">&#x1f5a5;</span>
-          <span class="terminal-header-title">Connected as: Hugo Vanrobaeys</span>
+  <!-- <div id="nav">
+    <router-link to="/projects/1">P 1</router-link> |
+    <router-link to="/projects/2">P 2</router-link> |
+    <router-link to="/projects/3">P 3</router-link> |
+    <router-link to="/projects/4">P 4</router-link>
+  </div> -->
+  <!-- <router-view></router-view> -->
+  <section>
+    <div class=" text-white md:py-20">
+      <div class="container mx-auto flex flex-col md:flex-row items-center md:my-36">
+        <div class="flex flex-col w-full lg:w-1/3 justify-center mt-24 md:my-0 items-start p-8">
+          <h1 class="text-3xl md:text-5xl text-green pb-2 tracking-loose">hugo<span class="text-lightgray">.toString()</span></h1>
+          <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Hi! I'm Hugo Vanrobaeys  
+          </h2>
+          <p class="text-sm md:text-base text-gray-50 mb-4">A Computer Science student,<br>
+            cybersecurity enthusiast and basically<br>
+            passionate about anything with a CPU.</p>
+          <a href="#"
+            class="bg-transparent text-green rounded shadow hover:shadow-lg py-2 px-4 border border-green">
+            PDF Resume</a>
         </div>
-        <div class="terminal-header-right">
-          <router-link to="/projects"><button class="terminal-header-button" title="Close">&#x2715;</button></router-link>
-        </div>
-      </div>
-      <div class="terminal-body">
-        <pre class="terminal-output">
-<strong>hugo@portfolio:~$</strong> Welcome to my portfolio!
+        <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
+          <div class="h-48 flex flex-wrap content-center">
+            <div>
+              <img class="inline-block mt-28 hidden xl:block" src="../assets/csec.png"></div>
+              <div>
+                <img class="inline-block p-8 md:p-0 w-80 md:w-auto"  src="../assets/logo-alt.png"></div>
+                <div>
+                  <img class="inline-block mt-28 hidden lg:block" src="../assets/csec1.png"></div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-Here you can interact with this Command Prompt using specific commands in order to get informations about me. For example, <span class="cmd-typo">whoami</span> will display basics informations, such as my name and my age.
 
-If you want to pursue your experience with this interface, feel free to discover! Oh, and don't hesitate to use the <span class="cmd-typo">help</span> command, as it will display a list of useful commands you may need to know about.
+    <div class="scroll-down"></div>
 
-However, if you don't feel confortable with the whole command line approach, or just get bored of it; you can any time close it either by typing <span class="cmd-typo">exit</span> or simply clicking the close button (upper right corner). You'll then land on the home page of my portfolio, this time with a more "standard portfolio website" design, let's say.
 
-Enjoy :)
+  </section>
 
-  - Hugo Vanrobaeys, a computer student among others
-
-</pre>
-    
-        <kbd class="console-input">
-          <span class="message-input">
-            <label for="message"><strong>hugo@portfolio:~$</strong></label>
-            <input class="message" id="message" type="text" autofocus>
-          </span>
-      </kbd>
-      </div>
-    </div>
-  </div>
 </template>
+<style scoped>
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  z-index: 100;
+  text-decoration: none;
+  text-shadow: 0;
+  width: 30px;
+  height: 30px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  z-index: 9;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+  -webkit-animation: fade_move_down 4s ease-in-out infinite;
+  -moz-animation:    fade_move_down 4s ease-in-out infinite;
+  animation:         fade_move_down 4s ease-in-out infinite;
+}
 
-<style>
-.console-input span {
-    width: 100%;
-    display: inline-block;
-  }
-  .console-input span label {
-    width: 150px;
-    margin-right: 9px;
-  }
-  .console-input span input {
-      background: transparent;
-      border: none;
-      color: #fff;
-      cursor: default;
-      font-family: monospace;
-      font-size: 16px;
-      width: calc(100% - 160px);
-      /* min-width: 50%; */
-      padding: 0;
-  }
-  .console-input span input:focus {
-      border: none;
-      outline: none;
-  }
-  .cmd-typo{
-    background-color: #4a4d53;
-    border-radius: 5px;
-    padding: 1px 4px 1px 4px;
-  }
-  .terminal {
-    overflow: scroll;
-    position: relative;
-    height: 800px;
-    max-height: 90vh;
-    width: 1200px;
-    max-width: 90vw;
-    margin: 0 auto;
-    top: 5vh;
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    background-color: #1b2134;
-    color: #fff;
-    font-family: monospace;
-    font-size: 14px;
-  }
-  .terminal-header {
-    display: flex;
-    align-items: center;
-    background-color: #283140;
-    color: #fff;
-    padding: 0.5em 1em;
-  }
-  .terminal-header-left {
-    flex: 1;
-  }
-  .terminal-header-icon {
-    font-size: 1.5em;
-    margin-right: 0.5em;
-  }
-  .terminal-header-title {
-    font-size: 1.25em;
-    font-weight: bold;
-  }
-  .terminal-header-right {
-    display: flex;
-  }
-  .terminal-header-button {
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    font-size: 1em;
-    margin-left: 0.5em;
-    outline: none;
-  }
-  .terminal-header-button:hover {
-    color: #ccc;
-  }
-  .terminal-body {
-    padding: 1em;
-  }
-  .terminal-output {
-    white-space: pre-wrap;
-  }
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+
+
 </style>
