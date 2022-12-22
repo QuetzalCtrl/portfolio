@@ -7,10 +7,10 @@
   </div> -->
   <!-- <router-view></router-view> -->
   <section>
-    <div class=" text-white md:py-20">
+    <div class="font-montserrat text-white md:py-20">
       <div class="container mx-auto flex flex-col md:flex-row items-center md:my-36">
         <div class="flex flex-col w-full lg:w-1/3 justify-center mt-24 md:my-0 items-start p-8">
-          <h1 class="text-3xl md:text-5xl text-green pb-2 tracking-loose">hugo<span class="text-lightgray">.toString()</span></h1>
+          <h1 class="text-3xl md:text-5xl text-green pb-2 tracking-loose font-mono">hugo<span class="text-lightgray">.toString()</span></h1>
           <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Hi! I'm Hugo Vanrobaeys  
           </h2>
           <p class="text-sm md:text-base text-gray-50 mb-4">A Computer Science student,<br>

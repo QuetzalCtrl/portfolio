@@ -1,6 +1,6 @@
 <template>
   <BackgroundComponent></BackgroundComponent>
-  <nav v-if="$route.path != '/'" class="w-screen text-center text-bold text-bold text-lightgray bg-dark fixed p-8 border-b-2 border-solid border-black">
+  <nav v-if="$route.path != '/'" class="font-montserrat w-screen text-center text-bold text-bold text-lightgray bg-dark fixed p-8 border-b-2 border-solid border-black">
     <router-link to="/home">Home</router-link> |
     <router-link to="/">Terminal</router-link>
   </nav>

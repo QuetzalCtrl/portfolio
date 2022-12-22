@@ -1,17 +1,9 @@
 <template>
-  <div class="text-4xl">
-    <li>
-      this
-    </li>
-    <li>
-      is
-    </li>
-    <li>
-      my
-    </li>
-    <li>
-      footer
-    </li>
+  <div class="text-lightgray font-montserrat w-screen flex gap-6 justify-center mt-52 p-8">
+    <a href="#">liens</a>
+    <a href="#">vers</a>
+    <a href="#">mes</a>
+    <a href="#">reseaux</a>
   </div>
 </template>
 
