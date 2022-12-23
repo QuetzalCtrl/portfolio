@@ -7,7 +7,7 @@
           <span class="terminal-header-title">Connected as: Hugo Vanrobaeys</span>
         </div>
         <div class="terminal-header-right">
-          <router-link to="/home"><button class="terminal-header-button" title="Close">&#x2715;</button></router-link>
+          <router-link to="/"><button class="terminal-header-button" title="Close">&#x2715;</button></router-link>
         </div>
       </div>
       <div class="terminal-body">

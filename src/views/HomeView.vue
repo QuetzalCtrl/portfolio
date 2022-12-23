@@ -6,19 +6,24 @@
     <router-link to="/projects/4">P 4</router-link>
   </div> -->
   <!-- <router-view></router-view> -->
-  <section>
-    <div class="font-montserrat text-white md:py-20">
+  <section id="home">
+    <div class="font-montserrat text-white md:pt-20 pb-20 min-h-screen">
       <div class="container mx-auto flex flex-col md:flex-row items-center md:my-36">
         <div class="flex flex-col w-full lg:w-1/3 justify-center mt-24 md:my-0 items-start p-8">
-          <h1 class="text-3xl md:text-5xl text-green pb-2 tracking-loose font-mono">hugo<span class="text-lightgray">.toString()</span></h1>
+          <h1 class="text-green pb-2 tracking-loose font-mono">root@portfolio:~# <span class="text-lightgray">vi hugo.md</span></h1>
           <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Hi! I'm Hugo Vanrobaeys  
           </h2>
           <p class="text-sm md:text-base text-gray-50 mb-4">A Computer Science student,<br>
-            cybersecurity enthusiast and basically<br>
+            network & cybersecurity enthusiast and basically<br>
             passionate about anything with a CPU.</p>
-          <a href="#"
-            class="bg-transparent mr-auto hover:bg-green text-green hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
-            PDF Resume</a>
+          <div class="flex gap-2">
+            <a href="#projects"
+            class="bg-green mr-auto hover:bg-transparent text-white hover:text-green rounded shadow hover:shadow-lg py-2 px-4 border border-green hover:border-green">
+            My projects</a>
+            <a href="#"
+              class="bg-transparent mr-auto hover:bg-green text-green hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border hover:border-transparent">
+              PDF Resume</a>
+          </div>
         </div>
         <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
           <div class="h-48 flex flex-wrap content-center">
@@ -33,19 +38,25 @@
             </div>
           </div>
 
-
-    <div class="scroll-down"></div>
+    <div class="md:block hidden">
+      <div class="scroll-down"></div>
+    </div>
 
 
   </section>
-  <TimelineComponent></TimelineComponent>
-
+  <ProjectsComponent/>
+  <TimelineComponent/>
+  <ContactComponent/>
 </template>
 <script>
 import TimelineComponent from '@/components/TimelineComponent.vue';
+import ProjectsComponent from '@/components/ProjectsComponent.vue';
+import ContactComponent from '@/components/ContactComponent.vue';
 export default{
   components:{
-    TimelineComponent
+    TimelineComponent,
+    ProjectsComponent,
+    ContactComponent
   }
 }
 </script>

@@ -3,22 +3,15 @@ import TerminalView from '../views/TerminalView.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/terminal',
     name: 'terminal',
     component: TerminalView
   },
   {
-    path: "/home",
+    path: "/",
     name: "HomeView",
     component: () =>
       import("../views/HomeView.vue"),
-    children: [
-      { 
-        path: ':projectId',
-        component: () =>
-        import("../components/ProjectComponent.vue"),
-      }
-    ]
   }
 ]
 
