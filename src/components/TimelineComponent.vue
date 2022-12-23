@@ -1,5 +1,5 @@
 <template>
-    <section class="font-montserrat">
+    <section id="about" class="font-montserrat">
         <div class="text-white pb-8">
         <div class="container mx-auto flex flex-col-reverse items-start md:flex-row my-12 md:my-24 ">
         <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
