@@ -34,6 +34,12 @@ module.exports = {
             roboto: ['Roboto', "sans-serif"],
             montserrat: ['Montserrat', "sans-serif"],
         },
+        zIndex: {
+          '600': '600',
+          '700': '700',
+
+          '100': '100',
+        }
     },
   },
   variants: {
