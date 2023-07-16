@@ -20,7 +20,7 @@
             <a href="#projects"
             class="bg-green mr-auto hover:bg-transparent text-white hover:text-green rounded shadow hover:shadow-lg py-2 px-4 border border-green hover:border-green">
             My projects</a>
-            <a href="#"
+            <a href="/CV_Hugo_Vanrobaeys_EN.pdf" target="_blank"
               class="bg-transparent mr-auto hover:bg-green text-green hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border hover:border-transparent">
               PDF Resume</a>
           </div>
