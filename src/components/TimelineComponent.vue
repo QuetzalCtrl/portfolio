@@ -52,7 +52,7 @@
             <p class="text-sm md:text-base text-gray-50 mb-4">
                 Here are my different experiences over time. You can also visit my LinkedIn profile where my complete background is detailed, and don't hesitate to get in touch with me there!
             </p>
-            <a href="#"
+            <a href="https://www.linkedin.com/in/hugo-vanrobaeys/"
             class="bg-transparent mr-auto hover:bg-green text-green hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border hover:border-transparent"> 
             My LinkedIn</a>
         </div>

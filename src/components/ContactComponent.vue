@@ -3,7 +3,7 @@
 <div class="w-96 md:max-w-full mx-auto my-12">
     <div class="p-6 border-4 border-green sm:rounded-md">
       <h3 class="font-bold text-2xl text-white text-center pb-4">Get in touch</h3>
-    <form method="POST" action="https://herotofu.com/start">
+    <form method="POST" action="#">
       <label class="block mb-6">
         <span class="text-white">Your name</span>
         <input
