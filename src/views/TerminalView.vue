@@ -36,7 +36,17 @@ Enjoy :)
     </div>
   </div>
 </template>
-
+<script>
+import run_terminal from './terminal.js';
+export default{
+  props:{
+  }, 
+  setup(){
+    new run_terminal();
+  }
+  
+}
+</script>
 <style>
 .console-input span {
     width: 100%;

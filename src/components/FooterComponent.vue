@@ -16,7 +16,7 @@
     </a>
     
   </div>
-  <div ><center><img src="http://www.hackthebox.eu/badge/image/195524" alt="Hack The Box"/></center></div>
+  <div class="flex justify-center w-full"><img src="http://www.hackthebox.eu/badge/image/195524" alt="Hack The Box"/></div>
   <!-- <div ><center id="gist_htb"></center></div> -->
   <div class="text-center pb-4" id="gist"></div>
 </template>
@@ -29,7 +29,7 @@ export default {
 mounted: function () {
     // https://platform.linkedin.com/badges/js/profile.js
     postscribe('#gist', `<script src="https://tryhackme.com/badge/185553"><\/script>`)
-    postscribe('#gist_htb', `<script src="https://www.hackthebox.eu/badge/195524"><\/script>`)
+    // postscribe('#gist_htb', `<script src="https://www.hackthebox.eu/badge/195524"><\/script>`)
 
 
   },
