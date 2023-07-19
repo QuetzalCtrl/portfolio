@@ -5,7 +5,7 @@
     <a href="#projects">Projects</a> | 
     <a href="#about">About</a> | 
     <a href="#contact">Contact</a> | 
-    <router-link to="/terminal" class="text-gray w-screen align-right">Terminal</router-link>
+    <a href="/terminal" class="text-gray w-screen align-right">Terminal</a>
   </nav>
   <router-view/>
   <div v-if="$route.path != '/terminal'">
