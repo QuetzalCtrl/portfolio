@@ -14,8 +14,6 @@ export default class {
             return hash;
         }
         function askforoot() {
-            // let pass = prompt("Root password ?", "password");
-            // Sup3Rs3cUr3P@sSw0rD
             return (prompt("Root password ?", "password").hashCode() == -1220956677)
         }
 
