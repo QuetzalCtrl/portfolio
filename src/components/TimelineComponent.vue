@@ -36,14 +36,24 @@
 
                 <div class="flex justify-between items-center w-full right-timeline">
                 <div class="order-1 w-5/12"></div>
-                <div class="order-1  w-5/12 px-1 pb-16">
+                <div class="order-1  w-5/12 px-1">
                     <p class="mb-3 text-base text-green">Sept 2021 - July 2022</p>
                     <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">Gap year</h4>
-                    <TimelineText desc="After my DUT, I chose to take a break from my studies to focus on other things. This year has been very rewarding for me so far! In addition to traveling a lot, I was able to concentrate on personal projects that were close to my heart, such as this portfolio or even a musical project."/>
+                    <TimelineText desc="After my DUT, I chose to take a break from my studies to focus on other things. This year has been very rewarding for me! In addition to traveling a lot, I was able to concentrate on personal projects that were close to my heart, such as this portfolio or even a musical project."/>
                 </div>
                 </div>
+
+                <div class="flex justify-between flex-row-reverse items-center w-full left-timeline">
+                <div class="order-1 w-5/12"></div>
+                <div class="order-1 w-5/12 text-right">
+                    <p class="mb-3 text-base text-green">Since Sept 2023</p>
+                    <h4 class="mb-3 font-bold text-lg md:text-2xl">L3 info @ <a target="_blank" href="https://www.univ-lille.fr/" class="text-blue font-bold">Université de Lille</a></h4>
+                    <TimelineText class="px-1" desc="It was time for me to get back to studies after a year of interruption. I chose to enter the Université de Lille's CS Bachelor's degree because it is one of the best entry points for the degree I'm aiming for: the 'Cloud Computing and Cybersecurity' Master's degree from that same university."/>
+                </div>
+                </div>
+
             </div>
-            <img class="mx-auto -mt-36 md:-mt-36" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
+            <img class="mx-auto -mt-50 md:-mt-50" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
             </div>
         </div>
         <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">

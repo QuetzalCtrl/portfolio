@@ -1,7 +1,7 @@
 <template>
 <section id="projects" class="font-montserrat">
   <h3 class="mt-12 text-center text-4xl text-white font-bold">My projects</h3>
-  <h3 class="my-6 text-center text-white ">My main projects</h3>
+  <h3 class="my-6 text-center text-white ">My main and biggest projects</h3>
 
   <div class="container my-12 mx-auto px-4 md:px-12">
     <div class="flex flex-wrap -mx-1 lg:-mx-4">
@@ -11,24 +11,24 @@
     </div>
   </div>
   <h3 class="mt-6 text-center text-2xl text-white font-bold">Alternate projects</h3>
-  <h3 class="mb-6 text-center text-white ">Scripts and projects worth mentionning too</h3>
+  <h3 class="mb-6 text-center text-white ">Scripts and smaller projects worth mentionning too</h3>
   
 
   <div class="flex flex-wrap justify-center gap-5">
-    <div class="transform transition hover:scale-105 text-center block max-w-sm p-6 bg-dark text-white rounded-lg shadow-md border-2 border-lightgray-100">
-      <h5 class="mb-2 text-2xl font-bold tracking-tight">What's In My PCAP</h5>
-      <p class="mb-4 font-normal text-gray-700 dark:text-gray-400">A website made for PCAP data extraction, analysing and visualisation rendering in charts and graphs.</p>
-      <a href="https://github.com/QuetzalCtrl/QuetzalTheRipper" target="_blank"
-          class="bg-transparent mr-auto text-white hover:text-dark hover:bg-white rounded shadow hover:shadow-lg py-2 px-4 border hover:border-transparent">
-          See on github
-      </a>
-    </div>
     <div class="transform transition hover:scale-105 text-center block max-w-sm p-6 bg-dark text-white rounded-lg shadow-md border-2 border-lightgray-100">
       <h5 class="mb-2 text-2xl font-bold tracking-tight ">Quetzal the Ripper</h5>
       <p class="mb-4 font-normal text-gray-700 dark:text-gray-400">Quetzal the Ripper is a Password cracker (my JohnTheRipper homemade version), created for educational purposes only.</p>
       <a href="https://github.com/QuetzalCtrl/QuetzalTheRipper" target="_blank"
           class="bg-transparent mr-auto text-white hover:text-dark hover:bg-white rounded shadow hover:shadow-lg py-2 px-4 border hover:border-transparent">
-          See on github
+          See on GitHub
+      </a>
+    </div>
+    <div class="transform transition hover:scale-105 text-center block max-w-sm p-6 bg-dark text-white rounded-lg shadow-md border-2 border-lightgray-100">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight">What's In My PCAP</h5>
+      <p class="mb-4 font-normal text-gray-700 dark:text-gray-400">A website made for PCAP data extraction, analysing and visualisation rendering in charts and graphs.</p>
+      <a 
+          class="bg-dark mr-auto text-lightgray  rounded shadow py-2 px-4 border">
+          Not yet on GitHub
       </a>
     </div>
   </div>
